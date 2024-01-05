@@ -34,6 +34,8 @@
 		627BDA992B48333E00AF2190 /* Degular-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 627BDA942B48333E00AF2190 /* Degular-Medium.ttf */; };
 		627BDA9A2B48333E00AF2190 /* Degular-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 627BDA952B48333E00AF2190 /* Degular-Semibold.ttf */; };
 		627BDA9D2B4835B300AF2190 /* FillRandomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BDA9C2B4835B300AF2190 /* FillRandomizer.swift */; };
+		627BDA9F2B48375A00AF2190 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BDA9E2B48375A00AF2190 /* FontManager.swift */; };
+		627BDAA12B487EAB00AF2190 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BDAA02B487EAB00AF2190 /* TaskViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,8 @@
 		627BDA952B48333E00AF2190 /* Degular-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Semibold.ttf"; sourceTree = "<group>"; };
 		627BDA9B2B48336900AF2190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		627BDA9C2B4835B300AF2190 /* FillRandomizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillRandomizer.swift; sourceTree = "<group>"; };
+		627BDA9E2B48375A00AF2190 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		627BDAA02B487EAB00AF2190 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				627BDA862B482F8300AF2190 /* MainViewModel.swift */,
+				627BDAA02B487EAB00AF2190 /* TaskViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 				627BDA892B4830EE00AF2190 /* AppConstants.swift */,
 				627BDA8B2B48320100AF2190 /* DateManager.swift */,
 				627BDA9C2B4835B300AF2190 /* FillRandomizer.swift */,
+				627BDA9E2B48375A00AF2190 /* FontManager.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -408,12 +414,14 @@
 				627BDA442B46E1EE00AF2190 /* ContentView.swift in Sources */,
 				627BDA752B46E3A800AF2190 /* Foundation+Utils.swift in Sources */,
 				627BDA712B46E33300AF2190 /* CGFloat+Random.swift in Sources */,
+				627BDA9F2B48375A00AF2190 /* FontManager.swift in Sources */,
 				627BDA822B479E8600AF2190 /* Task.swift in Sources */,
 				627BDA8C2B48320100AF2190 /* DateManager.swift in Sources */,
 				627BDA8A2B4830EE00AF2190 /* AppConstants.swift in Sources */,
 				627BDA9D2B4835B300AF2190 /* FillRandomizer.swift in Sources */,
 				627BDA422B46E1EE00AF2190 /* TodoListApp.swift in Sources */,
 				627BDA6D2B46E28B00AF2190 /* Color+Utils.swift in Sources */,
+				627BDAA12B487EAB00AF2190 /* TaskViewModel.swift in Sources */,
 				627BDA872B482F8300AF2190 /* MainViewModel.swift in Sources */,
 				627BDA772B46E40600AF2190 /* View+if.swift in Sources */,
 				627BDA6F2B46E2C800AF2190 /* UIColor+Utils.swift in Sources */,
